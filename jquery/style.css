@@ -1,0 +1,26 @@
+#pokemons {
+    list-style: none;
+    width: 30%;
+    min-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+body{
+    background-color: white;
+    color:black;
+}
+li{
+    border: 2px solid black;
+    padding: 10px;
+    opacity: 0.5;
+    background-color: beige;
+    box-shadow: 5px 5px 5px black;;
+}
+li:hover{
+    opacity: 2;
+    color:black;
+}
